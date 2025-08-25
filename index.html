@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jackline Mpaye – AI & Software Engineer</title>
+  <meta name="description" content="Portfolio of Jackline Mpaye – AI & Software Engineer (ML, IoT, Cybersecurity)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0c0f;--panel:#11131a;--muted:#9aa0aa;--text:#e8ecf1;--brand:#3b82f6;--accent:#22c55e;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;line-height:1.6}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1080px;margin:auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(11,12,15,.7);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid #1f2430;z-index:10}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-weight:800;letter-spacing:.3px}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    nav a{color:#cdd3dd}
+    nav a:hover{color:#fff}
+
+    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center;padding:48px 0}
+    .hero h1{font-size:clamp(28px,4vw,44px);line-height:1.15;margin:8px 0}
+    .muted{color:var(--muted)}
+    .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;border:1px solid #263042;background:#121826;color:#e7ecf3}
+    .btn.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+    .btn.ghost{background:transparent}
+
+    section{padding:56px 0;border-top:1px solid #161b25}
+    h2{font-size:clamp(22px,3vw,28px);margin:0 0 12px}
+    .kicker{height:3px;width:56px;background:var(--brand);border-radius:2px;margin:10px 0 22px}
+
+    .grid{display:grid;gap:18px}
+    .cols-3{grid-template-columns:repeat(3,1fr)}
+    .cols-2{grid-template-columns:repeat(2,1fr)}
+
+    .card{background:var(--panel);border:1px solid #1c2230;border-radius:14px;padding:16px}
+    .badge{display:inline-block;font-size:12px;color:#b6bdc8;border:1px solid #2a3344;border-radius:999px;padding:5px 10px;margin:6px 6px 0 0}
+
+    .project .title{font-weight:700}
+    .project .meta{font-size:13px;color:#b3bac6}
+
+    footer{border-top:1px solid #161b25;padding:38px 0;color:#9aa0aa}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">jackline<span style="color:var(--brand)">.</span></div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./JacklineMpaye_CV.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div>
+        <div class="muted">Hi! I'm Jackline 👋🏾</div>
+        <h1>AI & Software Engineer — Machine Learning · IoT · Cybersecurity</h1>
+        <p class="muted">Computer Science graduate from Ashesi University. I design intelligent, scalable systems and ML models that solve real problems and deliver measurable impact.</p>
+        <div class="btns">
+          <a class="btn primary" href="#projects">View my projects</a>
+          <a class="btn" href="https://github.com/JacklineMpaye" target="_blank">GitHub</a>
+          <a class="btn ghost" href="./JacklineMpaye_CV.pdf" target="_blank">Download CV</a>
+        </div>
+      </div>
+      <div class="card">
+        <strong>Quick highlights</strong>
+        <ul class="muted">
+          <li>Neural networks for fraud detection (TensorFlow, sklearn)</li>
+          <li>Network threat detection with supervised ML</li>
+          <li>IoT telemetry + automation with MQTT & Node.js</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="kicker"></div>
+      <p class="muted">I'm a Pathway Foundation Scholar and Computer Science graduate. My work spans <strong>neural anomaly detection</strong>, <strong>threat classification</strong>, and <strong>intelligent IoT control</strong>. I enjoy open‑ended problems, fast iteration, and clear metrics.</p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="kicker"></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <div class="meta">Aug 2024 – Sep 2024 • Iganga, UG (Hybrid)</div>
+          <div class="title">Information Technology Intern — Musana Community Development Organisation</div>
+          <ul class="muted">
+            <li>Supported software optimization to improve reliability and performance.</li>
+            <li>Diagnosed network integration issues to improve real‑time system behavior.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="meta">Feb 2024 – Present • Remote</div>
+          <div class="title">TIST Intern — TIST</div>
+          <ul class="muted">
+            <li>Contributed to data workflows and internal tooling for analysis.</li>
+          </ul>
+        </div>
+      </div>
+      <p style="margin-top:14px"><a href="./JacklineMpaye_CV.pdf" target="_blank">Download full resume →</a></p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="kicker"></div>
+      <div class="grid cols-3">
+        <!-- Card 1 -->
+        <article class="card project">
+          <div class="meta" style="color:var(--accent)">Completed</div>
+          <div class="title">Neural Networks for Fraud Detection</div>
+          <p class="muted">Feature‑engineered NN for real‑time financial anomaly detection.</p>
+          <p class="muted"><strong>Impact:</strong> Higher precision; adaptable to emerging patterns.</p>
+          <div>
+            <span class="badge">Python</span><span class="badge">TensorFlow</span><span class="badge">scikit‑learn</span><span class="badge">Pandas</span>
+          </div>
+          <p><a href="#" target="_blank">Code</a> · <a href="projects/fraud-detection.html">View project</a></p>
+        </article>
+        <!-- Card 2 -->
+        <article class="card project">
+          <div class="meta" style="color:var(--accent)">Completed</div>
+          <div class="title">Threat Detection Using Machine Learning</div>
+          <p class="muted">Supervised model to identify anomalies in network traffic.</p>
+          <p class="muted"><strong>Impact:</strong> ~30% faster incident response.</p>
+          <div>
+            <span class="badge">Python</span><span class="badge">scikit‑learn</span><span class="badge">Wireshark</span>
+          </div>
+          <p><a href="#" target="_blank">Code</a> · <a href="projects/threat-detection.html">View project</a></p>
+        </article>
+        <!-- Card 3 -->
+        <article class="card project">
+          <div class="meta" style="color:var(--accent)">Completed</div>
+          <div class="title">IoT Smart Objects Monitoring & Control</div>
+          <p class="muted">MQTT/HTTP telemetry, dashboard, and ML‑based automation.</p>
+          <p class="muted"><strong>Impact:</strong> Energy‑efficient autonomous device control.</p>
+          <div>
+            <span class="badge">Node.js</span><span class="badge">MQTT</span><span class="badge">JavaScript</span><span class="badge">Python (ML)</span>
+          </div>
+          <p><a href="#" target="_blank">Code</a> · <a href="projects/iot-automation.html">View project</a></p>
+        </article>
+        <!-- Card 4 -->
+        <article class="card project">
+          <div class="meta">Completed</div>
+          <div class="title">Improving Water Access with Data</div>
+          <p class="muted">Clustering underserved zones and optimizing distribution.</p>
+          <p class="muted"><strong>Impact:</strong> ~20% increase in access in target areas.</p>
+          <div>
+            <span class="badge">Python</span><span class="badge">Pandas</span><span class="badge">scikit‑learn</span>
+          </div>
+          <p><a href="#" target="_blank">Code</a> · <a href="projects/water-access.html">View project</a></p>
+        </article>
+        <!-- Card 5 -->
+        <article class="card project">
+          <div class="meta">Completed</div>
+          <div class="title">Roommate Radar</div>
+          <p class="muted">Recommendation engine + API for compatible roommate matching.</p>
+          <div>
+            <span class="badge">Node.js</span><span class="badge">MongoDB</span><span class="badge">JWT</span>
+          </div>
+          <p><a href="#" target="_blank">Code</a> · <a href="projects/roommate-radar.html">View project</a></p>
+        </article>
+        <!-- Card 6 -->
+        <article class="card project">
+          <div class="meta">Completed</div>
+          <div class="title">Ashesi Judicial Management System (AJMS)</div>
+          <p class="muted">PHP/MySQL app for case tracking and notifications.</p>
+          <div>
+            <span class="badge">PHP</span><span class="badge">MySQL</span><span class="badge">JavaScript</span>
+          </div>
+          <p><a href="#" target="_blank">Code</a> · <a href="projects/ajms.html">View project</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="kicker"></div>
+      <div class="grid cols-3">
+        <div class="card"><strong>Programming</strong><div class="muted">Python, Java, JavaScript, PHP, C/C++, R</div></div>
+        <div class="card"><strong>AI/ML</strong><div class="muted">TensorFlow, Keras, scikit‑learn, Pandas, NumPy</div></div>
+        <div class="card"><strong>Cloud/Tools</strong><div class="muted">Git, Docker, MQTT, FastAPI, Node.js, SQL</div></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="kicker"></div>
+      <p class="muted">Email: <a href="mailto:jacklinempaye@gmail.com">jacklinempaye@gmail.com</a> • LinkedIn: <a href="https://www.linkedin.com/in/mpaye-jackline-a77744337" target="_blank">mpaye‑jackline</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="y"></span> Jackline Mpaye — Built with plain HTML & CSS</div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

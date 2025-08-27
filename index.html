@@ -63,8 +63,9 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#research">Research</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="./JacklineMpaye_CV.pdf" target="_blank">Resume</a></li>
+          <li><a href="./JacklineMpaye_CV.pdf" target="_blank" rel="noopener">Resume</a></li>
         </ul>
       </nav>
     </div>
@@ -79,15 +80,15 @@
         <p class="muted">Computer Science graduate from Ashesi University. I design intelligent, scalable systems and ML models that solve real problems and deliver measurable impact.</p>
         <div class="btns">
           <a class="btn primary" href="#projects">View my projects</a>
-          <a class="btn" href="https://github.com/JacklineMpaye" target="_blank">GitHub</a>
-          <a class="btn ghost" href="./JacklineMpaye_CV.pdf" target="_blank">Download CV</a>
+          <a class="btn" href="https://github.com/JacklineMpaye" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn ghost" href="./JacklineMpaye_CV.pdf" target="_blank" rel="noopener">Download CV</a>
         </div>
       </div>
       <div class="card">
         <strong>Quick highlights</strong>
         <ul class="muted">
-          <li>Neural networks for fraud detection (TensorFlow, sklearn)</li>
-          <li>Network threat detection with supervised ML</li>
+          <li>Neural networks for fraud detection (TensorFlow, scikit-learn)</li>
+          <li>AJMS: web app for real-time case tracking (AWS)</li>
           <li>IoT telemetry + automation with MQTT & Node.js</li>
         </ul>
       </div>
@@ -97,7 +98,7 @@
     <section id="about">
       <h2>About Me</h2>
       <div class="kicker"></div>
-      <p class="muted">I'm a Pathway Foundation Scholar and Computer Science graduate. My work spans <strong>neural anomaly detection</strong>, <strong>threat classification</strong>, and <strong>intelligent IoT control</strong>. I enjoy open‑ended problems, fast iteration, and clear metrics.</p>
+      <p class="muted">I'm a Pathway Foundation Scholar and Computer Science graduate. My work spans <strong>neural anomaly detection</strong>, <strong>judicial process automation</strong>, and <strong>intelligent IoT control</strong>. I enjoy open-ended problems, fast iteration, and clear metrics.</p>
     </section>
 
     <!-- EXPERIENCE -->
@@ -106,22 +107,24 @@
       <div class="kicker"></div>
       <div class="grid cols-2">
         <div class="card">
+          <div class="meta">Jan 2024 – Feb 2024 • Remote</div>
+          <div class="title">Customer Discovery Intern — Thematic Externship by Paragon One</div>
+          <ul class="muted">
+            <li>Researched trends in customer wants and profiles across multiple social media platforms.</li>
+            <li>Discovered and categorized ~200 customers across different segments.</li>
+            <li>Improved decision-making accuracy by ~25% in identifying which target customer groups to prioritize.</li>
+          </ul>
+        </div>
+        <div class="card">
           <div class="meta">Aug 2024 – Sep 2024 • Iganga, UG (Hybrid)</div>
           <div class="title">Information Technology Intern — Musana Community Development Organisation</div>
           <ul class="muted">
             <li>Supported software optimization to improve reliability and performance.</li>
-            <li>Diagnosed network integration issues to improve real‑time system behavior.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="meta">Feb 2024 – Present • Remote</div>
-          <div class="title">TIST Intern — TIST</div>
-          <ul class="muted">
-            <li>Contributed to data workflows and internal tooling for analysis.</li>
+            <li>Diagnosed network integration issues to improve real-time system behavior.</li>
           </ul>
         </div>
       </div>
-      <p style="margin-top:14px"><a href="./JacklineMpaye_CV.pdf" target="_blank">Download full resume →</a></p>
+      <p style="margin-top:14px"><a href="./JacklineMpaye_CV.pdf" target="_blank" rel="noopener">Download full resume →</a></p>
     </section>
 
     <!-- PROJECTS -->
@@ -129,69 +132,68 @@
       <h2>Featured Projects</h2>
       <div class="kicker"></div>
       <div class="grid cols-3">
-        <!-- Card 1 -->
         <article class="card project">
           <div class="meta" style="color:var(--accent)">Completed</div>
-          <div class="title">Neural Networks for Fraud Detection</div>
-          <p class="muted">Feature‑engineered NN for real‑time financial anomaly detection.</p>
-          <p class="muted"><strong>Impact:</strong> Higher precision; adaptable to emerging patterns.</p>
+          <div class="title">Neural Networks for Fraud Detection in Financial Transactions <em>(Paper in process of being published)</em></div>
+          <p class="muted">Feature-engineered neural model for real-time financial anomaly detection. Applied Hybrid Cluster-Based Sampling Technique to handle imbalance.</p>
+          <p class="muted"><strong>Impact:</strong> Accuracy ≈ 99.25%, AUC ≈ 0.997, Precision/Recall ≈ 98%+. Improved detection with reduced false positives.</p>
           <div>
-            <span class="badge">Python</span><span class="badge">TensorFlow</span><span class="badge">scikit‑learn</span><span class="badge">Pandas</span>
+            <span class="badge">Python</span><span class="badge">TensorFlow</span><span class="badge">XGBoost</span><span class="badge">scikit-learn</span>
           </div>
-          <p><a href="#" target="_blank">Code</a> · <a href="projects/fraud-detection.html">View project</a></p>
+          <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="https://github.com/JacklineMpaye/Fraud-detection-app/tree/main" target="_blank" rel="noopener">View project</a></p>
         </article>
-        <!-- Card 2 -->
-        <article class="card project">
-          <div class="meta" style="color:var(--accent)">Completed</div>
-          <div class="title">Threat Detection Using Machine Learning</div>
-          <p class="muted">Supervised model to identify anomalies in network traffic.</p>
-          <p class="muted"><strong>Impact:</strong> ~30% faster incident response.</p>
-          <div>
-            <span class="badge">Python</span><span class="badge">scikit‑learn</span><span class="badge">Wireshark</span>
-          </div>
-          <p><a href="#" target="_blank">Code</a> · <a href="projects/threat-detection.html">View project</a></p>
-        </article>
-        <!-- Card 3 -->
-        <article class="card project">
-          <div class="meta" style="color:var(--accent)">Completed</div>
-          <div class="title">IoT Smart Objects Monitoring & Control</div>
-          <p class="muted">MQTT/HTTP telemetry, dashboard, and ML‑based automation.</p>
-          <p class="muted"><strong>Impact:</strong> Energy‑efficient autonomous device control.</p>
-          <div>
-            <span class="badge">Node.js</span><span class="badge">MQTT</span><span class="badge">JavaScript</span><span class="badge">Python (ML)</span>
-          </div>
-          <p><a href="#" target="_blank">Code</a> · <a href="projects/iot-automation.html">View project</a></p>
-        </article>
-        <!-- Card 4 -->
-        <article class="card project">
-          <div class="meta">Completed</div>
-          <div class="title">Improving Water Access with Data</div>
-          <p class="muted">Clustering underserved zones and optimizing distribution.</p>
-          <p class="muted"><strong>Impact:</strong> ~20% increase in access in target areas.</p>
-          <div>
-            <span class="badge">Python</span><span class="badge">Pandas</span><span class="badge">scikit‑learn</span>
-          </div>
-          <p><a href="#" target="_blank">Code</a> · <a href="projects/water-access.html">View project</a></p>
-        </article>
-        <!-- Card 5 -->
-        <article class="card project">
-          <div class="meta">Completed</div>
-          <div class="title">Roommate Radar</div>
-          <p class="muted">Recommendation engine + API for compatible roommate matching.</p>
-          <div>
-            <span class="badge">Node.js</span><span class="badge">MongoDB</span><span class="badge">JWT</span>
-          </div>
-          <p><a href="#" target="_blank">Code</a> · <a href="projects/roommate-radar.html">View project</a></p>
-        </article>
-        <!-- Card 6 -->
         <article class="card project">
           <div class="meta">Completed</div>
           <div class="title">Ashesi Judicial Management System (AJMS)</div>
-          <p class="muted">PHP/MySQL app for case tracking and notifications.</p>
+          <p class="muted">Developed and deployed a web-based judicial management system for Ashesi University. Includes secure case tracking, evidence management, automated scheduling, policy updates, and an AI-powered chatbot for guidance.</p>
+          <p class="muted"><strong>Impact:</strong> Streamlined processes, reduced delays, improved transparency, and deployed on AWS for scalability and high availability.</p>
           <div>
-            <span class="badge">PHP</span><span class="badge">MySQL</span><span class="badge">JavaScript</span>
+            <span class="badge">PHP</span><span class="badge">MySQL</span><span class="badge">Tailwind CSS</span><span class="badge">AWS</span>
           </div>
-          <p><a href="#" target="_blank">Code</a> · <a href="projects/ajms.html">View project</a></p>
+          <p>
+            <a href="https://github.com/Tripple3A/AJC/" target="_blank" rel="noopener">Code</a> ·
+            <a href="projects/ajms.html">View project</a>
+          </p>
+        </article>
+        <article class="card project">
+          <div class="meta">Completed</div>
+          <div class="title">IoT Smart Objects Monitoring & Control</div>
+          <p class="muted">Built backend with MQTT/HTTP for real-time telemetry, integrated a dashboard, and applied ML-based prediction for autonomous control of IoT devices.</p>
+          <p class="muted"><strong>Impact:</strong> Energy-efficient device automation with predictive controls for fans and other smart appliances.</p>
+          <div>
+            <span class="badge">Node.js</span><span class="badge">MQTT</span><span class="badge">JavaScript</span><span class="badge">Python</span>
+          </div>
+          <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="https://github.com/JacklineMpaye/iot-smart-devices-control" target="_blank" rel="noopener">View project</a></p>
+        </article>
+        <article class="card project">
+          <div class="meta">Completed</div>
+          <div class="title">Improving Water Access with Data-Driven Solutions</div>
+          <p class="muted">Applied clustering algorithms to identify underserved communities and optimize water resource allocation.</p>
+          <p class="muted"><strong>Impact:</strong> Boosted water access by ~20% in targeted rural communities.</p>
+          <div>
+            <span class="badge">Python</span><span class="badge">scikit-learn</span><span class="badge">Pandas</span><span class="badge">Matplotlib</span>
+          </div>
+          <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="projects/water-access.html">View project</a></p>
+        </article>
+        <article class="card project">
+          <div class="meta">Completed</div>
+          <div class="title">Roommate Radar</div>
+          <p class="muted">Built a recommendation engine and API for intelligent roommate matching with JWT-secured sessions.</p>
+          <p class="muted"><strong>Impact:</strong> Improved roommate matching accuracy and student satisfaction.</p>
+          <div>
+            <span class="badge">Node.js</span><span class="badge">MongoDB</span><span class="badge">JWT</span>
+          </div>
+          <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="https://github.com/Malottey1/Roomate-Finder" target="_blank" rel="noopener">View project</a></p>
+        </article>
+        <article class="card project">
+          <div class="meta">Completed</div>
+          <div class="title">Secure Pass (Password Manager)</div>
+          <p class="muted">Developed a password manager with encrypted storage and secure authentication for privacy-focused credential management.</p>
+          <p class="muted"><strong>Impact:</strong> Enhanced data security and provided efficient credential access via Apache server deployment.</p>
+          <div>
+            <span class="badge">PHP</span><span class="badge">JavaScript</span><span class="badge">Apache</span>
+          </div>
+          <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="projects/secure-pass.html">View project</a></p>
         </article>
       </div>
     </section>
@@ -202,8 +204,29 @@
       <div class="kicker"></div>
       <div class="grid cols-3">
         <div class="card"><strong>Programming</strong><div class="muted">Python, Java, JavaScript, PHP, C/C++, R</div></div>
-        <div class="card"><strong>AI/ML</strong><div class="muted">TensorFlow, Keras, scikit‑learn, Pandas, NumPy</div></div>
+        <div class="card"><strong>AI/ML</strong><div class="muted">TensorFlow, Keras, scikit-learn, Pandas, NumPy</div></div>
         <div class="card"><strong>Cloud/Tools</strong><div class="muted">Git, Docker, MQTT, FastAPI, Node.js, SQL</div></div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <h2>Research</h2>
+      <div class="kicker"></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <strong>Landfill Air Pollutants, Climate, and Respiratory Disease (Case Study: Accra)</strong>
+          <p class="muted">Empirical research exploring the relationship between landfill pollutants, climate variability, and respiratory health outcomes in Ghana. Includes trend analysis (2015-2025) and statistical modeling.</p>
+        </div>
+        <div class="card">
+          <strong>Neural Networks for Fraud Detection in Financial Transactions</strong> <em>(Paper in process of being published)</em>
+          <p class="muted">Designed a neural model that improved fraud detection precision and adaptability. Applied feature engineering and anomaly detection strategies.</p>
+        </div>
+        <div class="card">
+          <strong>Ashesi Judicial Management System (AJMS)</strong> <em>(Deployed on AWS)</em>
+          <p class="muted">Designed and implemented a comprehensive web-based platform for Ashesi University's Judicial Council. The system supports real-time case tracking, secure evidence/document management, policy updates, and automated hearing schedules. Includes an AI-powered chatbot for policy guidance and a verdict recommendation feature trained on historical cases.</p>
+          <p class="muted"><strong>Impact:</strong> Streamlined judicial processes, reduced communication delays, improved transparency, and enhanced accessibility for students and administrators. Deployed using AWS (EC2, RDS, S3) for scalability and high availability.</p>
+        </div>
       </div>
     </section>
 
@@ -211,7 +234,7 @@
     <section id="contact">
       <h2>Contact</h2>
       <div class="kicker"></div>
-      <p class="muted">Email: <a href="mailto:jacklinempaye@gmail.com">jacklinempaye@gmail.com</a> • LinkedIn: <a href="https://www.linkedin.com/in/mpaye-jackline-a77744337" target="_blank">mpaye‑jackline</a></p>
+      <p class="muted">Email: <a href="mailto:jacklinempaye@gmail.com">jacklinempaye@gmail.com</a> • LinkedIn: <a href="https://www.linkedin.com/in/mpaye-jackline-a77744337" target="_blank" rel="noopener">mpaye-jackline</a></p>
     </section>
   </main>
 
